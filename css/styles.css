@@ -1,0 +1,71 @@
+body {
+  color: #141414;
+  font-family: 'Open Sans';
+}
+
+h1, h2 {
+  font-family: 'Slabo 27px';
+}
+
+h1 {
+  font-size: 42px;
+  margin: 1.4rem 0 1rem 0;
+}
+
+h2 {
+  margin: 0.1rem 0;
+}
+
+h3 {
+  margin: 0.1rem 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.background {
+  margin-top: 4px;
+  height: 210px;
+  width: 100%;
+  background: #333;
+  background: url(../img/header.jpg) no-repeat 50% 50%;
+  border-radius: 3px;
+}
+
+header, footer, main {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+sidebar {
+  width: 30%;
+  float: left;
+}
+
+section {
+  width: 50%;
+  float: left;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #141414;
+  font-size: 14px;
+  text-align: center;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+nav > ul > li {
+  margin-top: 0.3rem;
+}
+
+nav > ul > li a {
+  text-decoration: none;
+}
